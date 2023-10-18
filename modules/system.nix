@@ -12,26 +12,26 @@
       };
       CustomUserPreferences = {
         NSGlobalDomain = {
-	  WebKitDeveloperExtras = true;
+          WebKitDeveloperExtras = true;
         };
-	"com.apple.desktopservices" = {
+        "com.apple.desktopservices" = {
           # Avoid creating .DS_Store files on network or USB volumes
           DSDontWriteNetworkStores = true;
           DSDontWriteUSBStores = true;
         };
-	"com.apple.screensaver" = {
+        "com.apple.screensaver" = {
           # Require password immediately after sleep or screen saver begins
           askForPassword = 1;
           askForPasswordDelay = 0;
         };
-	"com.apple.screencapture" = {
+        "com.apple.screencapture" = {
           location = "~/Desktop";
           type = "png";
         };
-	"com.apple.AdLib" = {
+        "com.apple.AdLib" = {
           allowApplePersonalizedAdvertising = false;
         };
-	"com.apple.ImageCapture".disableHotPlug = true;
+        "com.apple.ImageCapture".disableHotPlug = true;
       };
     };
     keyboard = {
