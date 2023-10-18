@@ -32,6 +32,7 @@
 
     # `brew install --cask`
     casks = [
+      "firefox"
       "google-chrome"
     ];
   };
