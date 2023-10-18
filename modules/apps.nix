@@ -2,11 +2,11 @@
   environment.systemPackages = with pkgs; [
     direnv
     emacs
+    gh
     git
     htop
-    vscode
     postgresql
-    gh
+    vscode
     wget
   ];
 
