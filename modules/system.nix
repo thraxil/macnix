@@ -34,11 +34,10 @@
 	"com.apple.ImageCapture".disableHotPlug = true;
       };
     };
-  };
-
-  keyboard = {
-    enableKeyMapping = true;
-    remapCapsLockToControl = false;
+    keyboard = {
+      enableKeyMapping = true;
+      remapCapsLockToControl = false;
+    };
   };
 
   # Add ability to used TouchID for sudo authentication
