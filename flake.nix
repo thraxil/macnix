@@ -2,7 +2,7 @@
   description = "Nix for macOS configuration";
 
   nixConfig = {
-    experimental-features = [ "nix-command" "flakes" ];
+    experimental-features = ["nix-command" "flakes"];
   };
 
   inputs = {
@@ -13,7 +13,12 @@
     };
   };
 
-  outputs = inputs@{ self, nixpkgs, darwin, ... }:{
+  outputs = inputs @ {
+    self,
+    nixpkgs,
+    darwin,
+    ...
+  }: {
     darwinConfigurations.aeon = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [
