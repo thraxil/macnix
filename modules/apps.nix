@@ -34,6 +34,7 @@
     casks = [
       "firefox"
       "google-chrome"
+      "zoom"
     ];
   };
 }
