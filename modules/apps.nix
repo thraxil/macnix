@@ -4,6 +4,7 @@
     emacs
     gh
     git
+    google-cloud-sdk
     gnupg
     htop
     postgresql
