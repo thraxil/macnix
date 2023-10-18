@@ -2,7 +2,14 @@
 
 
   environment.systemPackages = with pkgs; [
+    direnv
+    emacs
     git
+    htop
+    vscode
+    postgresql
+    gh
+    wget
   ];
 
   # The apps installed by homebrew are not managed by nix, and not reproducible!
