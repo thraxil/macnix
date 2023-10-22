@@ -36,7 +36,7 @@
     };
     keyboard = {
       enableKeyMapping = true;
-      remapCapsLockToControl = false;
+      remapCapsLockToControl = true;
     };
   };
 
