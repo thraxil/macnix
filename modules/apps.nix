@@ -7,6 +7,7 @@
     google-cloud-sdk
     gnupg
     htop
+    jira-cli-go
     postgresql
     tree
     vscode
