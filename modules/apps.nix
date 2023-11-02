@@ -1,13 +1,14 @@
 {pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     direnv
-    emacs
+    emacs29
     gh
     git
     google-cloud-sdk
     gnupg
     htop
     jira-cli-go
+    nodejs # for copilot
     postgresql
     tree
     vscode
