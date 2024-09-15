@@ -33,6 +33,7 @@
     # `brew install`
     brews = [
        "openssh"
+       "pinentry-mac"
     ];
 
     # `brew install --cask`
