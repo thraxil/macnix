@@ -13,6 +13,7 @@
     tree
     vscode
     wget
+    yubikey-manager
   ];
 
   homebrew = {
@@ -31,6 +32,7 @@
 
     # `brew install`
     brews = [
+       "openssh"
     ];
 
     # `brew install --cask`
